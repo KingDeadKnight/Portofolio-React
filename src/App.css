@@ -1,4 +1,5 @@
 #home {
-  height: inherit;
-  background-image: url("./HomeBackgroundImage.jpg");
+  height: calc(100vh - 64px);
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.7)), url("./HomeBackgroundImage.jpg");
+  background-size: cover;
 }
